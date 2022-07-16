@@ -1,0 +1,73 @@
+{
+  "name": "sisacimage",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.6.2",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@tinymce/tinymce-react": "^3.12.6",
+    "@wmik/use-media-recorder": "^1.2.1-beta.0",
+    "antd": "^4.16.9",
+    "axios": "^0.21.1",
+    "babel-eslint": "10.x",
+    "byte-base64": "^1.1.0",
+    "capture-video-frame": "^1.0.0",
+    "date-fns": "^2.23.0",
+    "immutable": "^4.0.0-rc.14",
+    "livecam": "^0.2.0",
+    "merge": "^1.2.1",
+    "moment": "^2.29.1",
+    "oidc-client": "^1.9.0",
+    "react": "^17.0.2",
+    "react-beforeunload": "^2.5.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-image-picker": "^1.1.1",
+    "react-player": "^2.9.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-to-pdf": "^0.0.14",
+    "react-webcam": "^5.2.4",
+    "rimraf": "^2.6.2",
+    "styled-components": "^5.3.0",
+    "sweetalert2": "^11.1.7",
+    "sweetalert2-react-content": "^4.1.1",
+    "video-recorder-itsaaz": "^1.0.17",
+    "web-vitals": "^1.0.1"
+  },
+  "devDependencies": {
+    "ajv": "^6.9.1",
+    "eslint": "^7.11.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-flowtype": "^4.6.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.3",
+    "nan": "^2.14.1",
+    "typescript": "^3.7.5"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "scripts": {
+    "start": "rimraf ./build && react-scripts start",
+    "build": "react-scripts build",
+    "test": "cross-env CI=true react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "eslint ./src/"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

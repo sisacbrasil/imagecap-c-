@@ -1,0 +1,7 @@
+export {default as Atendimentos} from "./Atendimentos"
+export {default as Atendimento} from "./Atendimento"
+export {default as Configuracao} from "./Configuracao"
+export {default as Player} from "./Player"
+export {default as Laudo} from "./Laudo"
+export {default as Topicos} from "./Topicos"
+export {default as Modelos} from "./Modelos"
